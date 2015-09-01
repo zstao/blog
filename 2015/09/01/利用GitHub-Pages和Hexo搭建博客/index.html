@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>利用GitHub Pages和Hexo搭建博客 | The Memory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="一、Github PagesGithub Pages可以用来发布静态的网页，因此可以用来搭建博客，重要是完全免费而且无限流量，世界各地均可快速访问。事实上github官方也支持这种做法：
+
+Create a blog and spread your ideas. Whatever you want!   GitHub Pages原文链接">
+<meta property="og:type" content="article">
+<meta property="og:title" content="利用GitHub Pages和Hexo搭建博客">
+<meta property="og:url" content="http://zstao.tk/2015/09/01/利用GitHub-Pages和Hexo搭建博客/index.html">
+<meta property="og:site_name" content="The Memory">
+<meta property="og:description" content="一、Github PagesGithub Pages可以用来发布静态的网页，因此可以用来搭建博客，重要是完全免费而且无限流量，世界各地均可快速访问。事实上github官方也支持这种做法：
+
+Create a blog and spread your ideas. Whatever you want!   GitHub Pages原文链接">
+<meta property="og:image" content="http://7xktjr.com1.z0.glb.clouddn.com/domain_1.png">
+<meta property="og:updated_time" content="2015-09-01T16:04:18.290Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="利用GitHub Pages和Hexo搭建博客">
+<meta name="twitter:description" content="一、Github PagesGithub Pages可以用来发布静态的网页，因此可以用来搭建博客，重要是完全免费而且无限流量，世界各地均可快速访问。事实上github官方也支持这种做法：
+
+Create a blog and spread your ideas. Whatever you want!   GitHub Pages原文链接">
+  
+    <link rel="alternative" href="/atom.xml" title="The Memory" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="/img/touxiang.png" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Peach Tree</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">留下你的脚印吧 :)</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+						<li>关于我</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/zstao" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com" title="weibo">weibo</a>
+					        
+								<a class="zhihu" target="_blank" href="http://zhihu.com" title="zhihu">zhihu</a>
+					        
+								<a class="google" target="_blank" href="https://google.com" title="google">google</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/Blog/" style="font-size: 10px;">Blog</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/Ubuntu/" style="font-size: 20px;">Ubuntu</a> <a href="/tags/css/" style="font-size: 10px;">css</a> <a href="/tags/前端/" style="font-size: 20px;">前端</a> <a href="/tags/心路札记/" style="font-size: 10px;">心路札记</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+				
+				<section class="switch-part switch-part3">
+				
+					<div id="js-aboutme">就不告诉你我是谁。。。</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Peach Tree</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="/img/touxiang.png" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Peach Tree</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">留下你的脚印吧 :)</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/zstao" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com" title="weibo">weibo</a>
+			        
+						<a class="zhihu" target="_blank" href="http://zhihu.com" title="zhihu">zhihu</a>
+			        
+						<a class="google" target="_blank" href="https://google.com" title="google">google</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-利用GitHub-Pages和Hexo搭建博客" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/09/01/利用GitHub-Pages和Hexo搭建博客/" class="article-date">
+  	<time datetime="2015-08-31T16:27:02.000Z" itemprop="datePublished">2015-09-01</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      利用GitHub Pages和Hexo搭建博客
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Blog/">Blog</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="一、Github_Pages">一、Github Pages</h2><p><a href="https://pages.github.com/" target="_blank" rel="external">Github Pages</a>可以用来发布静态的网页，因此可以用来搭建博客，重要是完全免费而且无限流量，世界各地均可快速访问。事实上github官方也支持这种做法：</p>
+<blockquote>
+<p>Create a blog and spread your ideas. Whatever you want!   <a href="https://github.com/blog/272-github-pages" target="_blank" rel="external">GitHub Pages原文链接</a></p>
+</blockquote>
+<a id="more"></a>
+<h4 id="1-_Github_Pages创建">1. Github Pages创建</h4><p>Github Pages创建有两种方式：创建一个仓库名字为<code>github用户名.github.io</code>，或者在一个项目中例如blog下创建<code>gh-pages</code>分支，如果对应位置有网页时，输入githu用户名.github.io或者github用户名.github.io/blog就能够访问对应的内容。</p>
+<table>
+<thead>
+<tr>
+<th>Type of GitHub Pages site</th>
+<th style="text-align:center">Host location on GitHub</th>
+<th>How the page is redirected</th>
+<th style="text-align:center">Example custom domain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>User Pages site</td>
+<td style="text-align:center">username.github.io</td>
+<td>Automatically redirected to the custom domain that has been set for it</td>
+<td style="text-align:center">user.example.com</td>
+</tr>
+<tr>
+<td>Organization Pages site</td>
+<td style="text-align:center">orgname.github.io</td>
+<td>Automatically redirected to the custom domain that has been set for it</td>
+<td style="text-align:center">org.example.com</td>
+</tr>
+<tr>
+<td>Project Pages site owned by a user account</td>
+<td style="text-align:center">username.github.io/projectname</td>
+<td>Automatically redirected to a subdirectory of a User Pages site custom domain (user.example.com/projectname) as well as any custom domain specified by the user</td>
+<td style="text-align:center">project.example.com</td>
+</tr>
+<tr>
+<td>Project Pages site owned by an organization</td>
+<td style="text-align:center">orgname.github.io/projectname</td>
+<td>Automatically redirected to a subdirectory of a Project Pages site custom domain (org.example.com/projectname) as well as any custom domain specified by the organization</td>
+<td style="text-align:center">project.example.com</td>
+</tr>
+</tbody>
+</table>
+<h4 id="2-_绑定域名">2. 绑定域名</h4><p>如果个人拥有域名，则可以绑定域名。首先可以用<code>ping username.github.io</code>的方式获得ip地址，在域名管理中心绑定域名。<br><img src="http://7xktjr.com1.z0.glb.clouddn.com/domain_1.png" alt="截图"></p>
+<p>在对应项目下添加<strong>CNAME</strong>文件，里面填写域名，例如在<em>username.github.io</em>下<strong>CNAME</strong>中填写<code>xxx.com</code>，在<em>blog</em>的<strong>gh-pages</strong>分支下<strong>CNAME</strong>中填写<code>blog.xxx.com</code>，则访问<code>xxx.com</code>和<code>blog.xxx.com</code>就分别转到<em>username.github.io</em>和<em>blog</em>的<strong>gh-pages</strong>分支下。</p>
+<h4 id="3-_tk域名">3. tk域名</h4><p><a href="http://www.dot.tk/zh/index.html?lang=zh" target="_blank" rel="external">tk域名</a>，网络上最容易申请到的免费域名之一，是南太平洋岛国托克劳的顶级域名，同.cn一样为顶级国别域名，全球通用。可免费注册，亦可付费正式注册。以TK结尾，与COM、NET、CN一样同属顶级域名，TK意为TALK或者是TALKer（滔客：由英文单词Talker而来，意思是：说话的人，健谈的人，在网络上理解为互相聊天说话讨论的一群人，与闪客，黑客有异曲同工之妙。） [^来自百度百科]</p>
+<h2 id="二、Hexo">二、Hexo</h2><p><a href="http://" target="_blank" rel="external">hexo</a>是一款基于Node.js的静态博客框架，支持<strong>Markdown</strong>和所有<a href="http://octopress.org/" target="_blank" rel="external">Octopress</a>的插件。<code>Hexo</code>简单优雅, 而且拥有众多的主题, 适合程序员搭建个人博客,而且支持多平台的搭建。</p>
+<h4 id="1-_Hexo搭建">1. Hexo搭建</h4><blockquote>
+<p>安装的前提是必须先安装<code>Node.js</code>，这里是Node.js的<a href="https://nodejs.org/" target="_blank" rel="external">官网</a>和<a href="https://github.com/nodejs/node" target="_blank" rel="external">github</a>，安装可参考<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">RUNOOB.com</a>。</p>
+</blockquote>
+<p>安装Node.js之后，可以参考Hexo的<a href="https://hexo.io/" target="_blank" rel="external">官网</a>安装<code>Hexo</code>。<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> hexo-cli -<span class="keyword">g</span></span><br><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm <span class="keyword">install</span></span><br><span class="line">hexo <span class="keyword">server</span>  或   hexo s    //运行hexo服务</span></span><br></pre></td></tr></table></figure></p>
+<p>还有一些基本操作命令：<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">"xxx"</span>      <span class="comment">//新建博客，目录在source下的_post</span></span><br><span class="line">hexo <span class="keyword">generate</span>  或   hexo <span class="keyword">g</span>     <span class="comment">//编译Markdown生成静态的html，目录在public下，路径可在配置文件_config.yml下修改</span></span><br><span class="line">hexo deploy    或   hexo <span class="keyword">d</span>     <span class="comment">//可将博客上传到github上，前提是在_config.yml下配置路径，并安装hexo-deployer-git</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="2-_Hexo主题">2. Hexo主题</h4><blockquote>
+<p>Hexo拥有众多漂亮的主题，本博客的主题是<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">Yilia</a>，作者是<code>litten</code>。</p>
+</blockquote>
+<p>在这里可以看到<code>Hexo</code>的<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">主题</a>，如果想快速找到好看的主题，可以参考知乎上的问题<a href="http://www.zhihu.com/question/24422335" target="_blank" rel="external">有那些好看的hexo主题？</a>，当然问题发布已久，最高票数提到各主题在github上的<strong>Star</strong>数已发生变化。</p>
+<p>主题会下载到<code>theme</code>目录下,修改<code>_config.yml</code>指定位置可更改主题：<br><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># Extensions</span></span><br><span class="line"><span class="preprocessor">## Plugins: http://hexo.io/plugins/</span></span><br><span class="line"><span class="preprocessor">## Themes: http://hexo.io/themes/</span></span><br><span class="line">theme: yilia      <span class="comment">//填写主题的名字</span></span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/09/01/漂亮的css3时钟/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          漂亮的css3时钟
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/08/31/酷酷的Ubuntu终端用户名/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">酷酷的Ubuntu终端用户名</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="利用GitHub-Pages和Hexo搭建博客" data-title="利用GitHub Pages和Hexo搭建博客" data-url="http://zstao.tk/2015/09/01/利用GitHub-Pages和Hexo搭建博客/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"zstao"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		//ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.src = '/js/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+<section id="comments">
+<!--
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'zstao'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+ -->
+</section>
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2015 Peach Tree
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
