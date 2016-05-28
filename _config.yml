@@ -4,11 +4,12 @@
 
 # Site
 title: The Memory
-subtitle: 留下你的脚印吧 :)
-description: 
-author: Peach Tree
-language: zh-CN
+subtitle:
+description:
+author: PeachTree
+language: zh-Hans
 timezone:
+avatar: http://7xktjr.com1.z0.glb.clouddn.com/touxiang.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -48,15 +49,6 @@ default_category: uncategorized
 category_map:
 tag_map:
 
-# Archives
-#Archives 默认值为2,修改为1,Archives页面就只会列出标题,而非全文
-## 2: Enable pagination
-## 1: Disable pagination
-## 0: Fully Disable
-archive: 1
-category: 1
-tag: 1
-
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -69,19 +61,12 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
-# Disqus  多说评论, 设置多说短号有效
-disqus_shortname: zstao
-
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: yilia
+theme: hexo-theme-next
 
-# Deployment 站点部署到github要配置这里, 非常重要
+# Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: https://github.com/zstao/zstao.github.io.git #部署的仓库的SSH
-  branch: master   #部署分支,一般使用master主分支
-plugins: 
-- hexo-generator-feed   #此插件用于RSS订阅, 以后有时间再介绍
+  type:
